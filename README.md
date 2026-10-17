@@ -6,7 +6,13 @@
 - GitHub Pages：https://novusaaa.github.io/flowloom-website/
 - 联系邮箱：[xianniana@gmail.com](mailto:xianniana@gmail.com)
 
-本仓库公开官网页面、原创品牌标识、交互动画和中英文展示内容。登录、工作台、管理系统和软件下载入口连接到正式站点。影片与字体由正式站点提供。
+本仓库公开官网页面、原创品牌标识、交互动画和中英文展示内容。登录、工作台、管理系统和软件下载入口连接到正式站点。影片来自正式站点；字体和随附许可保存在本仓库 public/assets/。
+
+## 维护交接
+
+先读 [官网维护与交接](MAINTENANCE.md)，包含目录、发布方式、两仓库同步、域名和验收要点。
+
+使用模型前阅读 [API 模型配置指南](MODEL-SETUP.md)。
 
 ## 本地开发
 
