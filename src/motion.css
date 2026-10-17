@@ -1,0 +1,17 @@
+.motion-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.number-roll,.number-roll-visible{display:inline-flex;align-items:center;font-variant-numeric:tabular-nums;vertical-align:baseline}
+.number-reel-digit{position:relative;display:inline-block;overflow:hidden;height:1.1em;width:1ch}
+.number-reel-strip{position:absolute;inset:0 0 auto;display:flex;flex-direction:column;align-items:center;will-change:transform,filter}
+.number-reel-strip>span{display:flex;align-items:center;justify-content:center;height:1.1em;min-height:1.1em;line-height:1}
+.motion-pill{position:absolute;inset:0;display:block;border-radius:inherit;background:var(--bg);pointer-events:none;z-index:0}
+.motion-swap-text{position:relative;display:inline-flex;align-items:center;justify-content:center;overflow:hidden;vertical-align:middle}
+.motion-swap-item{display:inline-flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap}
+.modal-overlay.motion-modal-root{padding:0;background:transparent;backdrop-filter:none;animation:none;display:block}
+.motion-modal-backdrop{position:fixed;inset:0;background:color-mix(in srgb,var(--fg) 10%,transparent);backdrop-filter:blur(24px)}
+.motion-modal-viewport{position:fixed;inset:16px;z-index:101;overflow-x:hidden;overflow-y:auto}
+.motion-modal-align{display:flex;min-height:100%;align-items:center;justify-content:center}
+.modal.motion-modal-panel{animation:none;max-height:calc(100dvh - 32px);will-change:transform;transform-origin:50% 50%;outline:none}
+.status-running i{position:relative}
+.status-running i:before{content:"";position:absolute;inset:0;border-radius:50%;background:inherit;opacity:.6;animation:weave-status-ping 1s cubic-bezier(0,0,.2,1) infinite}
+@keyframes weave-status-ping{75%,100%{transform:scale(2);opacity:0}}
+@media(prefers-reduced-motion:reduce){.number-reel-strip{will-change:auto}.modal.motion-modal-panel{will-change:auto}.status-running i:before{animation:none}}

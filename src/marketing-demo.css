@@ -1,0 +1,3 @@
+.fl-demo{width:100%;aspect-ratio:1200/760;position:relative;overflow:hidden;border-radius:12px;background:#fff;isolation:isolate;color:#20201d;user-select:none;pointer-events:none}
+.fl-demo>svg{display:block;width:100%;height:100%;font-family:Inter,"Microsoft YaHei","PingFang SC",Arial,sans-serif;text-rendering:geometricPrecision;-webkit-font-smoothing:antialiased}
+.fl-demo .fl-demo-cursor{filter:drop-shadow(0 2px 2px #00000020)}
