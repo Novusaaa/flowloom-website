@@ -1257,7 +1257,14 @@
     "Storage is configured. A successful scheduled backup is still required.": "存储已配置，仍需完成一次成功的计划备份。",
     "Last offsite task": "最近异地备份任务",
     "Encrypted S3 transfers are available after the operator supplies a storage account and a separate recovery password. Saving a destination alone does not start or stop transfers.": "管理员配置存储账号与独立恢复密码后，即可启用加密 S3 传输。仅保存目标地址不会启动或停止传输。",
-    "Setup guide": "配置指南"
+    "Setup guide": "配置指南",
+    "Workspace scheduling and execution settings.": "工作空间的调度与执行设置。",
+    "Task-specific configurations may override the workspace default.": "任务专用配置可能优先于工作空间默认模型。",
+    "Could not load the current model.": "无法加载当前模型。",
+    "Manage models": "管理模型",
+    "Manage automatic cleanup and the seven-day recovery area in Plan and usage.": "在“套餐和用量”中管理自动清理与七天恢复区。",
+    "Manage history retention": "管理历史保留",
+    "Permanent retention cannot enable automatic cleanup.": "永久保留不能同时开启自动清理。"
   },
   "en": {
     "语言": "Language",
@@ -2882,6 +2889,13 @@
     "存储已配置，仍需完成一次成功的计划备份。": "Storage is configured. A successful scheduled backup is still required.",
     "最近异地备份任务": "Last offsite task",
     "管理员配置存储账号与独立恢复密码后，即可启用加密 S3 传输。仅保存目标地址不会启动或停止传输。": "Encrypted S3 transfers are available after the operator supplies a storage account and a separate recovery password. Saving a destination alone does not start or stop transfers.",
-    "配置指南": "Setup guide"
+    "配置指南": "Setup guide",
+    "Workspace scheduling and execution settings.": "Workspace scheduling and execution settings.",
+    "Task-specific configurations may override the workspace default.": "Task-specific configurations may override the workspace default.",
+    "Could not load the current model.": "Could not load the current model.",
+    "Manage models": "Manage models",
+    "Manage automatic cleanup and the seven-day recovery area in Plan and usage.": "Manage automatic cleanup and the seven-day recovery area in Plan and usage.",
+    "Manage history retention": "Manage history retention",
+    "Permanent retention cannot enable automatic cleanup.": "Permanent retention cannot enable automatic cleanup."
   }
 }
