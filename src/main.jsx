@@ -5,4 +5,6 @@ import {ModalLayer} from './motion';
 import Marketing from './Marketing';
 import './styles.css';
 import './root-motion.css';
+import {startSiteAnalytics} from './site-analytics';
+startSiteAnalytics({mirror:true});
 createRoot(document.getElementById('root')).render(<MotionConfig reducedMotion='user'><Marketing/><ModalLayer/></MotionConfig>);
